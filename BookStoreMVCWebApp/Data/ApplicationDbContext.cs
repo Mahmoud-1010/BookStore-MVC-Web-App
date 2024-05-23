@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using BookStoreMVCWebApp.Core.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookStoreMVCWebApp.Data
@@ -9,5 +10,6 @@ namespace BookStoreMVCWebApp.Data
             : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }

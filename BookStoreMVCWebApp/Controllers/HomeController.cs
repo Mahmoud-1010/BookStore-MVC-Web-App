@@ -1,4 +1,4 @@
-﻿using BookStoreMVCWebApp.Models;
+﻿using BookStoreMVCWebApp.Core.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

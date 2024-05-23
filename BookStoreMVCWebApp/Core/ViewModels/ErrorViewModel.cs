@@ -1,4 +1,4 @@
-namespace BookStoreMVCWebApp.Models
+namespace BookStoreMVCWebApp.Core.ViewModels
 {
     public class ErrorViewModel
     {
